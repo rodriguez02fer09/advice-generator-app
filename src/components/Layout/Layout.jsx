@@ -1,10 +1,11 @@
 import React from "react";
 import "./layout.css"
+import Card from "../Card/Card"
 
-const Layout = () =>{
+const Layout = () => {
     return(
-        <div>
-            <h1>HOLA</h1>
+        <div className="layout">
+            <Card/>
         </div>
     )
 
