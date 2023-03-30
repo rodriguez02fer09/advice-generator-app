@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;}
 .card-id{
-    width: 122px;
+    width: 140px;
     height: 18px;
     display: flex;
     flex-direction: row;
@@ -36,7 +36,7 @@
     
 }
 .card-advice{
-    width: 444px;
+    width: 450px;
     height: 114px;
 
 

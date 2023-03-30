@@ -2,9 +2,9 @@ import React from "react";
 import "./cardInformation.css";
 import Line from "../../assets/line.svg";
 
-const CardInformation = ({ id, texto }) => {
+
+const CardInformation = ({ id, advice }) => {
   return (
-    
       <div className="card">
         <div className="card-id">
           <p>ADVICE #</p>
@@ -12,10 +12,10 @@ const CardInformation = ({ id, texto }) => {
         </div>
 
         <div className="card-advice">
-          <p>{texto}</p>
+          <p>{advice}</p>
         </div>
         <div className="card-line">
-          <img src={Line} alt="line" />
+          <img src={Line} alt="line"/>
         </div>
       </div>
    
