@@ -54,3 +54,60 @@
 
 }
 
+@media (min-width: 700px) { 
+
+    .card{
+        width: 343px;
+        height: 315px;
+        background: var(--secundary-color);
+        box-shadow: 30px 50px 80px rgb(0 0 0 / 10%);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        &__id p {
+            font-family: 'Manrope',sans-serif ;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 11px;
+            line-height: 15px;
+            /* identical to box height */
+            text-align: center;
+            letter-spacing: 3.45714px;
+            /* Neon Green */
+            color:var(--five-color);
+        }
+        &__advice{
+            width: 295px;
+            height: 132px;
+            margin-top: 43px;
+        }
+        &__advice p{
+        font-family:  'Manrope',sans-serif ;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing:  -0.257143px;
+        /* Light Cyan */
+        
+        color:var(--four-color);;
+        
+        }
+    
+        &__line img {
+            width: 295px;
+            height: 16px;
+            margin-bottom: 72px;
+           
+          
+       }
+   
+    
+     }
+
+}
+
