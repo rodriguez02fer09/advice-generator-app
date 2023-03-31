@@ -34,9 +34,8 @@
 
 }
 
-@media (min-width: 700px){
+@media only screen and (max-width: 600px) {
     .container__card {
-        
          max-height: 343px;
          min-height: 347px;
          border: 1px solid #000000;
