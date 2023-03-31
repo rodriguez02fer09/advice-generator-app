@@ -1,0 +1,66 @@
+.card{
+    width: 540px;
+    height: 332px;
+    background: var(--secundary-color);
+    box-shadow: 30px 50px 80px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .card__id{
+        width: 170px;
+        height: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+        margin-top: 48px;
+    }
+    .card__id p {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 18px;
+        /* identical to box height */
+        
+        text-align: center;
+        letter-spacing: 4.08571px;
+        
+        /* Neon Green */
+        
+      color:var(--five-color);
+        
+        
+    }
+    .card__advice{
+        width: 450px;
+        height: 114px;
+    
+    
+    }
+    .card__advice p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    /* Light Cyan */
+    
+    color:var(--four-color);;
+    
+    }
+    .card__line{
+        width: 444px;
+        height: 16px;
+        margin-bottom: 72px;
+        
+       
+    }
+
+}
+

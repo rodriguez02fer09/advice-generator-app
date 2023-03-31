@@ -1,6 +1,6 @@
 import React , { useState,useEffect }from "react";
 
-import "./card.css";
+import "./card.scss";
 import CardInformation from "../CardInformation/CardInformation";
 import Oval from "../../assets/oval.svg"
 import Path from "../../assets/path.svg"

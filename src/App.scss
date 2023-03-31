@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$font-stack :  'Manrope',sans-serif;
+
 
 #root {
 	max-width: 1280px;
@@ -9,14 +10,12 @@
 /* VARIABLES */
 * {
 	/* MAIN COLOR PALETTE */
-	--Dark-Blue: #202733;
-	--Dark-Grayish-Blue: #313A48;
-	;
-	--Grayish-Blue: #4F5D74;
-	;
-	--Light-Cyan: #CEE3E9;
-	--Neon-Green: #53FFAA;
-	--white:	#ffffff;
+--primary-color: #202733;
+--secundary-color: #313A48;
+--tertiary-color: #4F5D74;
+--four-color: #CEE3E9;
+--five-color: #53FFAA;
+
 
 
 
