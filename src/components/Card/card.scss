@@ -1,5 +1,5 @@
 .container__card {
-   
+   position: relative;
     max-height: 364px;
     min-height: 364px;
     border: 1px solid #000000;
@@ -11,14 +11,14 @@
         width: 64px;
         height: 64px;
         position: absolute;
-        top: 65.22%;
-        left: 50%;
+        bottom: -34px;
+        left: 270px;
         transform: translate(-50%, -50%);
 
         &__path {
             position: fixed;
-            left: 34%;
-            top: 30.67%;
+            left: 22px;
+            top: 18px;
             cursor: pointer;
         }
         

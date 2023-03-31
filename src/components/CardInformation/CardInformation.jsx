@@ -18,7 +18,6 @@ const CardInformation = ({ id, advice }) => {
           <img src={Line} alt="line"/>
         </div>
       </div>
-   
   );
 };
 
