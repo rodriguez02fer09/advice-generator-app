@@ -24,11 +24,11 @@ const Card = () => {
  },[])
 
   return (
-    <div className="container-card">
+    <div className="container__card">
       <CardInformation id={slip?.id} advice={slip?.advice} />
-      <div className="container-img">
-        <img  className ="oval" src= {Oval} alt="oval" />
-        <img  className = "path"src= {Path} alt="'path" onClick={llamarApi} />
+      <div className="container__img">
+        <img src= {Oval} alt="oval" />
+        <img  className="container__img__path"src= {Path} alt="'path" onClick={llamarApi} />
       </div>
     </div>
   );
