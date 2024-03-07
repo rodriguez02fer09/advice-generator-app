@@ -34,8 +34,12 @@ const Card = (): JSX.Element => {
     <div className="container-card">
       <CardInformation id={slip?.id} advice={slip?.advice} />
       <div className="container-img">
-        <Oval />
-        <Path onClick={llamarApi} />
+        <div className="container-img__oval">
+          <Oval />
+        </div>
+        <div className="container-img__path">
+          <Path onClick={llamarApi} />
+        </div>
       </div>
     </div>
   )
