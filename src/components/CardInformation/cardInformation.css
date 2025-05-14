@@ -1,64 +1,106 @@
-.card{
-    width: 540px;
-    height: 332px;
-    background: #313A48;
-    box-shadow: 30px 50px 80px rgb(0 0 0 / 10%);
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;}
-.card-id{
-    width: 140px;
-    height: 18px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  
-    margin-top: 48px;
+.card {
+  width: 540px;
+  height: 332px;
+  background: #313a48;
+  box-shadow: 30px 50px 80px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-id {
+  width: 140px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 48px;
 }
 .card-id p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 4.08571px;
+
+  /* Neon Green */
+
+  color: #53ffaa;
+}
+.card-advice {
+  width: 450px;
+  height: 114px;
+}
+.card-advice p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  /* Light Cyan */
+
+  color: #cee3e9;
+}
+.card-line {
+  width: 444px;
+  height: 16px;
+  margin-bottom: 72px;
+}
+@media (max-width: 398px) {
+  .card {
+    width: 350px;
+    height: 280px;
+  }
+  .card-id {
+    margin-top: 23px;
+  }
+  .card-id p {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
     font-size: 13px;
     line-height: 18px;
     /* identical to box height */
-    
+
     text-align: center;
     letter-spacing: 4.08571px;
-    
+
     /* Neon Green */
-    
-    color: #53FFAA;
-    
-    
+
+    color: #53ffaa;
+  }
+  .card-advice {
+    width: 320px;
+    height: auto;
+  }
+  .card-advice p {
+    font-size: 24px;
+
+    /* Light Cyan */
+
+    color: #cee3e9;
+  }
+  .card-line {
+    width: 296px;
+    margin-bottom: 50px;
+  }
 }
-.card-advice{
-    width: 450px;
-    height: 114px;
 
-
+@media screen and (min-width: 399px) and (max-width: 834px) {
+  .card-advice {
+    width: auto;
+  }
 }
-.card-advice p{
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 28px;
-line-height: 38px;
-text-align: center;
-letter-spacing: -0.3px;
 
-/* Light Cyan */
-
-color: #CEE3E9;
-
-}
-.card-line{
-    width: 444px;
-    height: 16px;
-    margin-bottom: 72px;
-    
-   
+@media screen and (min-width: 835px) {
 }
