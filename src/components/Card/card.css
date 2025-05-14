@@ -1,7 +1,6 @@
 .container-card {
-  width: 540px;
-  max-height: 364px;
-  min-height: 364px;
+  width: 200px;
+
   background-color: var(--Dark-Blue);
 
   display: flex;
@@ -30,4 +29,36 @@
   left: 34%;
   top: 30.67%;
   cursor: pointer;
+}
+
+@media (max-width: 398px) {
+  .container-card {
+    width: 350px;
+    height: 350px;
+  }
+
+  .container-img {
+    top: 61.22%;
+  }
+
+  .container-img:hover {
+  }
+
+  .container-img__path {
+  }
+}
+
+@media screen and (min-width: 399px) and (max-width: 834px) {
+  .container-img {
+    top: 65.22%;
+  }
+
+  .container-img:hover {
+  }
+
+  .container-img__path {
+  }
+}
+
+@media screen and (min-width: 835px) {
 }
